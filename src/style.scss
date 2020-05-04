@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600&display=swap');
+
+@font-face {
+	font-family: LucidaGrande-Bold;
+	src: url(./fonts/LucidaGrandeBold.ttf);
+} 
+@font-face {
+	font-family: Lucida Grande;
+	src: url(./fonts/LucidaGrande.ttf);
+} 
+
+$bodyDefaultColor:#d04747;
+$fontWeight-200:200;
+
+html,
+    body {height: 100%;box-sizing: border-box;margin: 0;}
+	body {font-family: 'Work Sans','sans-serif' !important;margin: 0px !important;background-image: none;left: 0px;margin-left: 100px !important;margin-right: auto !important;color:$bodyDefaultColor !important; font-style: normal;letter-spacing: 0em;margin-bottom:60px;font-feature-settings:"kern";text-rendering: optimizeLegibility;font-weight: $fontWeight-200+ 200;}
+
+
+.bold {
+	font-weight: bold;
+}
+
+.button {
+	background-color: greenyellow;
+	color: blueviolet;
+	font: inherit;
+	border: 2px solid burlywood;
+	padding: 8px;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: lightgreen;
+	color: black;
+}
